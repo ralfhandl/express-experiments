@@ -7,3 +7,7 @@ TRACE http://localhost:3000
 ### exotic - needs curl syntax, see https://github.com/Huachao/vscode-restclient/blob/master/README.md#making-curl-request
 curl -X QUERY -L http://localhost:3000
 
+### should work
+SEARCH http://localhost:3000
+
+
