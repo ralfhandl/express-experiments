@@ -1,7 +1,11 @@
 const axios = require("axios");
 
 axios
-  .request({ url: "http://localhost:3000", method: "QUERY" })
+  .request({
+    url: "http://localhost:3000",
+    method: "QUERY",
+    headers: { foo: "b&r" },
+  })
   .then(function (response) {
     // handle success
     console.log(response.status);
